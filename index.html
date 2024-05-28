@@ -285,7 +285,7 @@ void loop() {
 
   Serial.println(distance_cm);  // Lähetetään etäisyys tietokoneelle luettavaksi sarjamonitorista
 
-  if (distance_cm &lt; 10) {  // Jos setäisyys on suurempi kuin 10cm, toteutetaan tämä komento
+  if (distance_cm &lt; 10) {  // Jos setäisyys on pienempi kuin 10cm, toteutetaan tämä komento
     tone(kaiutin, 262);    // Kaiutin päälle Taajuudella 262Hz
     delay(500);            // Tätä lukua muuttamalla voit määritellä kauanko ääntä soitetaan
   } else {                 // Jos &quot;if&quot; ei toteudu, toteutetaan tämä komento
