@@ -49,8 +49,7 @@ div.message {
 	favicon.type = "image/png";
 	favicon.href = "https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png";
 	document.head.appendChild(favicon);
-}());
-</script><tw-tag name="Valmis" color="green"></tw-tag><tw-passagedata pid="1" name="Aloitus" tags="" position="1000,200" size="100,100">&lt;img
+}());</script><tw-tag name="Valmis" color="green"></tw-tag><tw-passagedata pid="1" name="Aloitus" tags="" position="1000,200" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
 
@@ -132,7 +131,7 @@ void loop() {
   delay(500);
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="5" name="Haastava: Servo &amp; lämpötila" tags="" position="1000,975" size="100,100"></tw-passagedata><tw-passagedata pid="6" name="Haastava: Servo &amp; painonappi" tags="Valmis" position="1000,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -160,7 +159,7 @@ alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/koodausalusta.png&quot;
 alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
 * Kopioi alta esimerkkikoodi ohjelmaan:
-&lt;div class=&quot;message&quot;&gt;//`#include &lt;Servo.h&gt;;
+&lt;div class=&quot;message&quot;&gt;//`#include &lt;Servo.h&gt;
 
 Servo myservo;
 int nappi = 2;
@@ -189,7 +188,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="7" name="Haastava: Servo &amp; valoisuus" tags="Valmis" position="1000,725" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -233,11 +232,11 @@ void loop() {
   int ldrStatus = analogRead(ldr);
 
   Serial.println(ldrStatus);                    // Lähetetään ldrStatus tietokoneelle luettavaksi sarjamonitorista
-  int angle = map(ldrStatus, 0, 1023, 0, 180);  // Muutetaan ldrStatus kulmaksi muuttujaan angle
+  int angle = map(ldrStatus, 200, 700, 0, 180);  // Muutetaan ldrStatus kulmaksi muuttujaan angle
   myservo.write(angle);
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="8" name="Helppo: Kaiutin &amp; etäisyys" tags="Valmis" position="800,600" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -302,7 +301,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="9" name="Helppo: Kaiutin &amp; painonappi" tags="Valmis" position="800,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -357,7 +356,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="10" name="Helppo: Kaiutin &amp; valoisuus" tags="Valmis" position="800,725" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -413,7 +412,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="11" name="Helppo: Led &amp; etäisyys" tags="Valmis" position="600,600" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -477,7 +476,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="12" name="Helppo: Led &amp; painonappi" tags="Valmis" position="600,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -531,7 +530,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="13" name="Helppo: Led &amp; valoisuus" tags="Valmis" position="600,725" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
@@ -588,7 +587,7 @@ void loop() {
   }
 }
 `//&lt;/div&gt;
- * Lataa koodi ohjelmaan ja olet valmis!
+ * Lataa koodi ja olet valmis!
  * Voit muokata ja siirrellä koodin osia, jos haluat saada sen toimimaan eri tavalla</tw-passagedata><tw-passagedata pid="14" name="haastava" tags="" position="1075,325" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;100&quot;&gt;
