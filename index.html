@@ -421,17 +421,6 @@ alt=&quot;Tarvikkeet&quot; width=&quot;800&quot;&gt;
 src=&quot;images/ledetaisyys.png&quot;
 alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
 
-Ledin kytkentä:
-* Kiinnitä led-valo koekytkentälevyyn
-* Ledin lyhyemmän jalan kanssa samalle pystyriville kytketään 200Ω-vastus kuvan mukaisella tavalla
-* Ledin pidemmän jalan kanssa samalle pystyriville kytketään johto Arduinon pinniin 13
-* Vastuksen toisen jalan kanssa samalle vaakariville kytketään johto Arduinon GND-pinniin eli maahan
-Etäisyys-sensorin kytkentä:
-* Sensorin VCC kiinnitetään uros-naaras johdolla Arduinon 5V-pinniin
-* Sensorin Trig kiinnitetään uros-naaras johtoolla Arduinon 3-pinniin
-* Sensorin Echo kiinnitetään uros-naaras johtoolla Arduinon 2-pinniin
-* Sensorin Trig kiinnitetään uros-naaras johtoolla Arduinon GND-pinniin eli maahan
-
 &#39;&#39;3. Yhdistä Arduino USB-johdolla tietokoneeseen&#39;&#39;
 
 &#39;&#39;4. Kirjoita koodi Arduinon ohjelmointialustalla&#39;&#39;
@@ -472,7 +461,7 @@ void loop() {
 
   Serial.println(distance_cm);  // Lähetetään etäisyys tietokoneelle luettavaksi sarjamonitorista
 
-  if (distance_cm &lt; 10) {      // Jos setäisyys on suurempi kuin 10cm, toteutetaan tämä komento
+  if (distance_cm &gt; 10) {      // Jos setäisyys on suurempi kuin 10cm, toteutetaan tämä komento
     digitalWrite(led1, LOW);   // LED on pois päältä
   } else {                     // Jos if ei toteudu, toteutetaan tämä komento
     digitalWrite(led1, HIGH);  // LED on päällä
