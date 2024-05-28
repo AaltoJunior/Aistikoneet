@@ -539,16 +539,6 @@ alt=&quot;Tarvikkeet&quot; width=&quot;800&quot;&gt;
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/ledvaloisuus.png&quot;
 alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
 
-Ledin kytkentä:
-* Kiinnitä led-valo koekytkentälevyyn
-* Ledin pidemmän jalan kanssa samalle pystyriville kytketään 200Ω-vastus kuvan mukaisella tavalla
-* Vastuksen toisen jalan kanssa samalle pystyriville kiinnitetään johto Arduinon pinniin 9
-* Ledin lyhyemmän jalan kanssa samalle vaakariville kytketään johto Arduinon GND-pinniin eli maahan 
-LDR-vastuksen kytkentä:
-* Kiinnitä LDR-sensori koekytkentälevyyn
-* LDR-vastuksen oikean jalan kanssa samalle pystyriville kytketään johto Arduiono GND-pinniin eli maahan 
-* LDR-vastuksen vasemman jalan kanssa samalle pystyriville kytketään 10k Ω-vastuksen toinen pää ja johto Arduinon A0-pinniin
-* Vastuksen toisen jalan kanssa samalle pystyriville kytketään johto Arduinon 5V-pinniin
 
 &#39;&#39;3. Yhdistä Arduino USB-johdolla tietokoneeseen&#39;&#39;
 
@@ -582,7 +572,7 @@ void loop() {
 
   Serial.println(ldrStatus); // Lähetetään ldrStatus tietokoneelle luettavaksi sarjamonitorista
 
-  if (ldrStatus &gt;= 400) {  // Vaihtamalla tätä lukua saat muokattua missä vaiheessa valo syttyy
+  if (ldrStatus &gt;= 400) {  // Vaihtamalla tätä lukua pienemmäksi saat valon syttymään pienemmästä varjosta
     digitalWrite(led1, HIGH);
   } else {
     digitalWrite(led1, LOW);
