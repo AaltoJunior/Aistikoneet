@@ -68,42 +68,42 @@ alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 Välkommen till Aalto Universitetet Junior Arduino handledningarna! Den här guiden ger dig en lista över tillbehör, kopplingsanvisningar och exempelkod baserat på de val du gör.
 
 =|=
-&#39;&#39;Select easy level if:&#39;&#39;
-* you have no previous experience with Arduino or other coding.
-* you want more comments explaining how the code works in the code
-(align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[[[easy]]]
+&#39;&#39;Välj en lätt nivå om :&#39;&#39;
+* du inte har någon tidigare erfarenhet av Arduino eller programmering
+* du vill ha fler kommentarer i koden som förklarar hur den fungerar
+(align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[[[lätt]]]
 =|=
-&#39;&#39;Select hard level if:&#39;&#39;
-* you know how to use Aduino or are already familiar with coding
-* you want to use a servo motor in your project
-(align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[[[hard]]]
+&#39;&#39;Välj en avancerad nivå om:&#39;&#39;
+* du kan använda Arduino eller redan är bekant med programmering
+* du vill använda en servomotor i ditt projekt
+(align:&quot;&lt;==&quot;)+(box:&quot;=XX=&quot;)[[[utmanande]]]
 |==|
-</tw-passagedata><tw-passagedata pid="2" name="Haastava: Kaiutin &amp; lämpötila" tags="" position="800,975" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="Haastava: Led &amp; lämpötila" tags="" position="600,975" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Hard: Servo &amp; distance" tags="Valmis" position="1000,600" size="100,100">&lt;img
+</tw-passagedata><tw-passagedata pid="2" name="Utmanande: Högtalare &amp; temperatur" tags="" position="800,975" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="Utmanande: Led &amp; temperatur" tags="" position="600,975" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Utmanande: Servo &amp; avstånd" tags="Klar" position="1000,600" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
-###Servo and Distance
+###Servo och avstånd
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servoetaisyystarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servoetaisyys.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`#include &lt;Servo.h&gt;
 
 Servo myservo;
@@ -142,34 +142,34 @@ void loop() {
   delay(500);
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="5" name="Haastava: Servo &amp; lämpötila" tags="" position="1000,975" size="100,100"></tw-passagedata><tw-passagedata pid="6" name="Hard: Servo &amp; Button" tags="Valmis" position="1000,850" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="5" name="Utmanande: Servo &amp; temperatur" tags="" position="1000,975" size="100,100"></tw-passagedata><tw-passagedata pid="6" name="Utmanande: Servo &amp; Button" tags="Klar" position="1000,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
-###Servo and Button
+###Servo och en tryckknapp
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;/style&gt;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servonappitarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servonappi.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`#include &lt;Servo.h&gt;
 
 Servo myservo;
@@ -205,27 +205,27 @@ src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quo
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ###Servo and Light level
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servovaloisuustarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/servovaloisuus.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`#include &lt;Servo.h&gt;
 
 Servo myservo;
@@ -247,33 +247,33 @@ void loop() {
   myservo.write(angle);
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="8" name="Easy: Speaker &amp; Distance" tags="Valmis" position="800,600" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="8" name="Easy: Speaker &amp; Distance" tags="Valmis" position="800,600" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ###Speaker and Distance
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinetaisyystarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinetaisyys.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään kaiutin muuttujana &quot;kaiutin&quot; ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa &quot;kaiutin&quot; käytetään myöhemmin
 // koodissa viittaamaan kaiutin, joka on tässä kytketty digitaaliporttiin 3.
@@ -312,33 +312,33 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="9" name="Easy: Speaker &amp; Button" tags="Valmis" position="800,850" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="9" name="Easy: Speaker &amp; Button" tags="Valmis" position="800,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ###Speaker and Button
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinnappitarvikkeet.png&quot;
 alt=&quot;Tarvikkeet&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinnappi.png&quot;
 alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;Kuva kytkennästä&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään painonappi muuttujana ”nappi” ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa ”nappi” käytetään myöhemmin
 // koodissa viittaamaan painonappiin, joka on tässä kytketty digitaaliporttiin 2.
@@ -367,33 +367,33 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
+ * Ladda upp koden och du är klar!
  * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="10" name="Easy: Speaker &amp; Light level" tags="Valmis" position="800,725" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ###Speaker and Light level
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinvaloisuustarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/kaiutinvaloisuus.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään Led-valo muuttujana ”led1” ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa ”led1” käytetään myöhemmin
 // koodissa viittaamaan Lediin, joka on tässä kytketty digitaaliporttiin 9
@@ -423,33 +423,33 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="11" name="Easy: LED &amp; Distance" tags="Valmis" position="600,600" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="11" name="Easy: LED &amp; Distance" tags="Valmis" position="600,600" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ###LED and Distance sensor
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledetaisyystarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledetaisyys.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään Led-valo muuttujana ”led1” ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa ”led1” käytetään myöhemmin
 // koodissa viittaamaan Lediin, joka on tässä kytketty digitaaliporttiin 13.
@@ -487,33 +487,33 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="12" name="Easy: LED &amp; Button" tags="Valmis" position="600,850" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="12" name="Easy: LED &amp; Button" tags="Valmis" position="600,850" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ### LED and button
 
-&#39;&#39;1. You will need the following equipment&#39;&#39;
+&#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledpainonappitarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledpainonappi.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään Led-valo muuttujana ”led1” ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa ”led1” käytetään myöhemmin
 // koodissa viittaamaan Lediin, joka on tässä kytketty digitaaliporttiin 13.
@@ -541,34 +541,34 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="13" name="Easy: LED &amp; Light level" tags="Valmis" position="600,725" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="13" name="Easy: LED &amp; Light level" tags="Valmis" position="600,725" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 ### LED and Ligh Sensor
 
- &#39;&#39;1. You will need the following equipmentt&#39;&#39;
+ &#39;&#39;1. Du behöver följande delar&#39;&#39;
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledvaloisuustarvikkeet.png&quot;
 alt=&quot;Equipment&quot; width=&quot;800&quot;&gt;
 
-&#39;&#39;2. Build the circuit as shown in the picture&#39;&#39;
+&#39;&#39;2. Bygg kopplingen som på bilden&#39;&#39;
 
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/ledvaloisuus.png&quot;
 alt=&quot;Circuit&quot; width=&quot;800&quot;&gt;
 
 
-&#39;&#39;3. Connect the Arduino to your computer with a USB cable&#39;&#39;
+&#39;&#39;3. Anslut Arduino till datorn med en USB-kabel&#39;&#39;
 
-&#39;&#39;4. Write code on the Arduino programming environment&#39;&#39;
-* Open Arduino IDE on the computer
-* Select Tools &gt; Board &gt; Arduino Uno
-* Select Tools &gt; Port COMXX (XX is a number assigned by the computer for the Arduino)
+&#39;&#39;4. Skriv koden i Arduinos programmeringsmiljö&#39;&#39;
+* Öppna Arduino IDE
+* Välj Tools &gt; Board &gt; Arduino Uno
+* Välj Tools &gt; Port COMXX (XX är något nummer)
 &lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/koodausalusta.png&quot;
 alt=&quot;IDE&quot; width=&quot;800&quot;&gt;
-* Copy the example code to the Arduino IDE:
+* Kopiera exempel-koden till Arduino IDE:
 &lt;div class=&quot;message&quot;&gt;&lt;pre&gt;`// Nimetään led-valo muuttujana ”led1” ja kirjoitetaan sen arvoksi digitaaliportin
 // numero, johon se on Arduinossa kiinnitetty. Muuttujaa ”led1” käytetään myöhemmin
 // koodissa viittaamaan Lediin, joka on tässä kytketty digitaaliporttiin 9
@@ -598,19 +598,19 @@ void loop() {
   }
 }
 `&lt;/pre&gt;&lt;/div&gt;
- * Upload code and you are ready!
- * You can edit the code to change the functionality.</tw-passagedata><tw-passagedata pid="14" name="hard" tags="" position="1075,325" size="100,100">&lt;img
+ * Ladda upp koden och du är klar!
+ * Du kan ändra och flytta delar av koden om du vill få den att fungera på ett annat sätt.</tw-passagedata><tw-passagedata pid="14" name="hard" tags="" position="1075,325" size="100,100">&lt;img
 src=&quot;https://aaltojunior.github.io/Aistikoneet/en/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 
-### Select the output and sensor that you prefer to use
-Next, you need to decide which components you want to use with Arduino. Below you will find outputs and sensors suitable for easy difficulty levels.
+### Välj en utgång och sensor du vill använda
+Nästa steg är att bestämma vilka delar du vill använda i din Arduino. Nedan hittar du utgångar och sensorer som passar för en lätt nivå.
 
-Valitse ulostulo:
-(dropdown: bind $ulostulo, &quot;LED&quot;, &quot;Speaker&quot;, &quot;Servo&quot;) 
+Välj en utgång:
+(dropdown: bind $ulostulo, &quot;LED&quot;, &quot;Högtalare&quot;, &quot;Servo&quot;) 
 
-Valitse sensori:
-(dropdown: bind $sensori, &quot;Distance&quot;, &quot;Light level&quot;, &quot;Button&quot;)
+Välj en sensor:
+(dropdown: bind $sensori, &quot;Avstånd&quot;, &quot;Ljusnivå&quot;, &quot;Tryckknap&quot;)
 
 
 (link: &quot;Got to instructions&quot;)[(if: $ulostulo is &quot;LED&quot; and $sensori is &quot;Distance&quot;)[(go-to: &quot;Easy: LED &amp; Distance&quot;)]
@@ -625,8 +625,8 @@ Valitse sensori:
 src=&quot;https://aaltojunior.github.io/Aistikoneet/images/juniorlogo.png&quot;
 alt=&quot;Logo&quot; width=&quot;100&quot;&gt;
 
-### Select the output and sensor that you prefer to use
-Next, you need to decide which components you want to use with Arduino. Below you will find outputs and sensors suitable for easy difficulty levels.
+### Välj en utgång och sensor du vill använda
+Nästa steg är att bestämma vilka delar du vill använda i din Arduino. Nedan hittar du utgångar och sensorer som passar för en utmanande nivå.
 
 &#39;&#39;Output:&#39;&#39;
 (dropdown: bind $ulostulo, &quot;LED&quot;, &quot;Speaker&quot;) 
